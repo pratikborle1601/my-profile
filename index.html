@@ -4,6 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
+    <style>
+         /*Internal CSS  */
+         /* NAme Selector */
+         header{
+            color:;
+            background-color:;
+         }
+         .header-info{
+            margin-right: 30px;
+            color: #00070F;
+            background-color: #ACC9F8;
+            
+
+         }
+         nav a{
+            margin-right: 30px;
+            color: #112A46;
+            background-color: #E2E4E7;
+            text-decoration: none;
+         }
+         ul li{
+            margin-top: 10px;
+         }
+         section th{
+            padding: 8px;
+         }
+         section td{
+            padding: 8px;
+         }
+         /* Class Selector */
+         .summary{
+            color:turquoise;
+            background-color: lightgoldenrodyellow;
+
+         }
+         /* ID Selector */
+         #list-itom{
+            color: blue;
+            background-color: pink;
+         }
+         #angular{
+            color: darkred;
+         }
+
+    </style>
 </head>
 
 <body>
@@ -12,17 +57,17 @@
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
           </svg>&nbsp;
-        <span>Pratik Borle </span>
-        &nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="header-info">Pratik Borle </span>
+        
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
             <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
           </svg>&nbsp;
-          <span>9130 6477 67</span>
-          &nbsp;&nbsp;&nbsp;&nbsp;
+          <span  class="header-info">9130 6477 67</span>
+         
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
           </svg>&nbsp;
-          <span>pratik.borle@gamil.com</span>
+          <span class="header-info">pratik.borle@gamil.com</span>
 
  
      </header>
@@ -30,20 +75,24 @@
 
     <!-- Nav bar Section -->
      <nav>
-      <a href="#home" target="_blank">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#techstack " target="_blank">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#project" target="_blank">PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#education" target="_blank">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="#others" target="_blank">OTHERS</a>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+      <a href="#home" target="_blank">HOME</a>
+      <a href="#techstack " target="_blank">TECH STACK</a>
+      <a href="#project" target="_blank">PROJECT</a>
+      <a href="#education" target="_blank">EDUCATION</a>
+      <a href="#others" target="_blank">OTHERS</a>
      </nav>
 
     <!-- Main Contain section -->
      <!-- HOME Section -->
      <section id="home">
-      <h3>Professional Summery</h3>
+        <h2 class="summary">Carrier Objectives</h2>
+        <p>
+            TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH   
+        </p>
+      <h3 class="summary">Professional Summery</h3>
       <ul>
-          <li>Having 1 years of exprience in devoloping Single page Web Application using Angular8,HTML5,CSS3,Bootstrap5,Javascipt,TypeSript</li>
-          <li>Experience on Working with version control system- GIT and GitHUb</li>
+          <li>Having 1 years of experience in devoloping Single page Web Application using <span id="angular">Angular8,</span>HTML5,CSS3,Bootstrap5,Javascipt,TypeSript</li>
+          <li id="list-itom">Experience on Working with version control system- GIT and GitHUb</li>
           <li>Exprience working with JIRA for user stories and bug tracking</li>
           <li>Stong Debugging &Troubleshooting code exprience using Chrome Devoloper Tool</li>
           <li>Working exposure on ID's like VS Code and Nodepad++</li>
